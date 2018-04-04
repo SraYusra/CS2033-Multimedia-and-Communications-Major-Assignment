@@ -1,0 +1,43 @@
+@charset "UTF-8";
+#content {
+	height: 1211px;
+	width: 646px;
+	left: 163px;
+	position: absolute;
+	text-align: left;
+	top: 217px;
+	border: 8px groove #999;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 12px;
+	background-color: #F00;
+}
+#side {
+	height: 1215px;
+	width: 216px;
+	position: absolute;
+	left: 832px;
+	top: 216px;
+	border: 8px groove #999;
+	text-align: left;
+}
+body {
+	background-image: url(images/Waterfall.jpg);
+}
+#footer {
+	position: absolute;
+	height: 133px;
+	width: 901px;
+	left: 162px;
+	top: 1465px;
+	text-align: center;
+}
+#header {
+	position: absolute;
+	left: 161px;
+	top: 5px;
+	width: 649px;
+	height: 166px;
+}

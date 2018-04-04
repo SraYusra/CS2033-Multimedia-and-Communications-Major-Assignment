@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Home</title>
+<script type="text/javascript">
+<!--
+var image1=new Image()
+image1.src="images/slideShow/offices1-Edit.jpg"
+var image2=new Image()
+image2.src="images/slideShow/bedroom1-Edit.jpg"
+var image3=new Image()
+image3.src="images/slideShow/bathroom1-Edit.jpg"
+var image4=new Image()
+image4.src="images/slideShow/frenchstyle1-Edit.jpg"
+var image5=new Image()
+image5.src="images/slideShow/WallDesign2.jpg"
+//-->
+</script>
+<style type="text/css"></style>
+<link href="smallerStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header"><img src="images/banner.jpg" alt="Banner" width="900" height="200" /></div>
+<p>
+<div id="navbar">
+
+ <ul>
+</p>
+</p>
+<li><a href="index.html">HOME</a>
+</li>
+    
+  <ul>
+    <li><a href="#">ABOUT US</a>
+<ul>
+        <li><a href="missionstatement.html">MISSION STATEMENT</a></li>
+        <li><a href="ourteam.html">OUR TEAM</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+      </ul>
+    </li>
+    <li><a href="#">OUR PORTFOLIO</a>
+<ul>
+        <li><a href="locations.html">LOCATIONS</a></li>
+        <li><a href="sampledesigns.html">SAMPLE DESIGNS</a></li>
+      </ul>
+    </li>
+    <li><a href="#">PHOTOS</a>
+<ul>
+        <li><a href="bednbath.html">BED N BATH</a></li>
+        <li><a href="livingroom.html">LIVING ROOM</a></li>
+        <li><a href="office.html">OFFICE</a></li>
+
+      </ul>
+    </li>
+    <li><a href="references.html">REFERENCES</a>
+    
+    </li>
+  </ul>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="content" id="content">
+
+<div id="side">
+  <p><img src="images/Room2.jpg"  alt="" width="170" height="230" /></p>
+  <p>&nbsp;</p>
+  <p><br />
+    <br />
+    <a href="Form.html" target="_blank">Click here</a> to book </p>
+  <p>your designer today!</p>
+  <p><a href="http://feeds.feedburner.com/dezeen" target="_blank"><img src="images/RSS.png" width="20" height="20" alt="rss feed" />Dezen Designs</a></p>
+  <p><a href="http://www.cbc.ca/cmlink/rss-arts" target="_blank"><img src="images/RSS.png" width="20" height="20" alt="rss feed" /></a><a href="http://www.cbc.ca/cmlink/rss-arts" target="_blank">CBC Arts</a></p>
+  <p><a href="http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml" target="_blank"><img src="images/RSS.png" width="20" height="20" alt="rss feed" /></a><a href="http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml" target="_blank">New York Times-Arts</a></p>
+  <p>&nbsp;</p>
+</div>
+
+  <p><strong>Welcome to L'elegante Designs</strong></p>
+  <p>L'elegante Designs is a prestigious interior design firm that presents to you designs from a variety of style spectrums. </p>
+  <p>Click on one of the images below to navigate accordingly.</p>
+  <p><a href="javascript:slidlink()">		<img src="file:///C|/Users/owner1/Documents/CS2033/assign3/images/slideShow/slide1.JPG" name="slide" width="500" height="350" alt="Slide Show" title="Slide Show"/></a> 
+  <p>
+  <p>
+  <script type="text/javascript">
+<!--
+//variable that will increment through the images
+var step=1
+var img=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+img=step
+if (step<5)
+step++
+else
+step=1
+//call function "slideit()" every 2.5 seconds
+setTimeout("slideit()",5000)
+}
+slideit()
+function slidlink()
+{
+	if (img==1)
+	window.location="office.html"
+	else if (img==2)
+	window.location="bednbath.html"
+	else if (img==3)
+	window.location="bednbath.html"
+	else if (img==4)
+	window.location="sampledesigns.html"
+	else if (img==5)
+	window.location="https://lelegantedesigns.wordpress.com/"
+}
+//-->
+</script></p>
+
+
+</div>
+<div id="footer">
+  <p>L'elegante Designs 2016</p>
+  <p>352 Gingerbread St. London, Ontario, Canada <br />
+    519-667-1111<br />
+  <a href="http:/yalshara@uwo.ca">yalshara@uwo.ca</a></p>
+</div>
+</div>
+</body>
+</html>
